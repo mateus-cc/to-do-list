@@ -1,0 +1,8 @@
+@import url('entrada.css');
+@import url('inicial.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
