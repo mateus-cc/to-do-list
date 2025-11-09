@@ -21,13 +21,13 @@
             </section>
             <section class="lista-lateral">
                 <p><span class="menu-text">Listas</span></p>
-                <ul>
+                <ul id="lista_categorias_menu">
                     <li><span class="menu-text circulo-categoria rosa">Pessoal</span></li>
                     <li><span class="menu-text circulo-categoria rosa">Trabalho</span></li>
                     <li><span class="menu-text circulo-categoria verde-escuro">Mercado</span></li>
-                    <li>
+                    <li id="item_btn_adicionar">
                         <img class="icone" src="./assets/mais.png" alt="">
-                        <span class="menu-text">Adicionar nova lista</span>
+                        <span class="menu-text btn-nova-lista">Adicionar nova lista</span>
                     </li>
                 </ul>
             </section>
@@ -51,66 +51,60 @@
                     Adicionar nova tarefa
                 </button>
                 <hr>
-                <li class="tarefa-item">
+                <!-- <li class="tarefa-item">
                     <span class="circulo-tarefa"></span>
-                    <span class="texto-tarefa">Limpar a casa</span>
+                    <span class="texto-tarefa"></span>
 
                     <span class="info-data">
                         <img src="./assets/calendario.png" alt="Data">
-                        Hoje
                     </span>
 
                     <span class="info-categoria">
                         <span class="circulo-categoria rosa"></span>
-                        Pessoal
                     </span>
                 </li>
                 <hr>
                 <li class="tarefa-item">
                     <span class="circulo-tarefa"></span>
-                    <span class="texto-tarefa">Academia</span>
+                    <span class="texto-tarefa"></span>
 
                     <span class="info-data">
                         <img src="./assets/calendario.png" alt="Data">
-                        Hoje
                     </span>
 
                     <span class="info-categoria">
                         <span class="circulo-categoria rosa"></span>
-                        Pessoal
                     </span>
                 </li>
                 <hr>
                 <li class="tarefa-item">
                     <span class="circulo-tarefa"></span>
-                    <span class="texto-tarefa">Finalizar task</span>
+                    <span class="texto-tarefa"></span>
 
                     <span class="info-data">
                         <img src="./assets/calendario.png" alt="Data">
-                        Hoje
                     </span>
 
                     <span class="info-categoria">
                         <span class="circulo-categoria verde-escuro"></span>
-                        Trabalho
                     </span>
                 </li>
-                <hr>
+                <hr> -->
             </ul>
         </section>
         <aside class="menu-lateral-direito">
             <section id="cabecalho_lateral-direito">
-                <p><span class="menu-text">Tarefa</span></p>
+                <p><span class="menu-text" id="">Tarefa</span></p>
             </section>
             <section class="menu-lateral-direito-main">
-                <input type="text" placeholder="Nome da tarefa">
-                <textarea name="" id=""  rows="10">Descrição</textarea>
+                <input type="text" placeholder="Nome da tarefa" id="nome_tarefa">
+                <textarea name="" id="descricao_tarefa"  rows="10">Descrição</textarea>
                 <label for="" id="container_lista">Listas
-                    <select>
-                        <option value="">Pessoal</option>
-                        <option value="">Trabalho</option>
-                        <option value="">Lista 1</option>
-                        <option value="">Lista 2</option>
+                    <select id="select_categoria">
+                        <option value="Pessoal">Pessoal</option>
+                        <option value="Trabalho">Trabalho</option>
+                        <option value="Lista 1">Lista 1</option>
+                        <option value="Lista 2">Lista 2</option>
                     </select>
                 </label>
                 <label id="container_data" for="">Data
