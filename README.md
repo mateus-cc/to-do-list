@@ -2,8 +2,6 @@
 
 Este repositório contém a documentação e o código-fonte do projeto "Sistema de Gerenciamento de Tarefas Pessoais", uma ferramenta web focada em simplicidade e eficácia para organização de atividades diárias.
 
-![Status do Projeto](https://img.shields.io/badge/status-em_desenvolvimento-yellow)
-
 ## 🎯 Visão Geral do Projeto
 
 O objetivo é criar um Produto Mínimo Viável (MVP) que substitua o uso de post-its e planilhas por um sistema centralizado, acessível de qualquer navegador.
