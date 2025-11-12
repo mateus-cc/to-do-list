@@ -61,6 +61,8 @@ header p {
     height: 91vh;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+
 }
 
 #container1 {
@@ -120,7 +122,8 @@ form input {
 .btn {
     background-color: #5ec57e;
     width: 25%;
-    height: 7%;
+    height: 100%;
+    margin-top: 10px;
     border-radius: 20px;
     color: white;
     border: none;
